@@ -1,0 +1,49 @@
+
+/*banner*/
+[data-trigger=carousel] {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+[data-trigger=carousel] ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+[data-trigger=carousel] #imgs {
+    position: absolute;
+    height: inherit;
+    top: 0;
+    left: 0;
+}
+[data-trigger=carousel] #imgs li{
+    height: inherit;
+    float: left;
+}
+
+[data-trigger=carousel] #imgs li img{
+    width: 100%;
+    height: 100%;
+}
+
+[data-trigger=carousel] #indexs {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}
+[data-trigger=carousel] #indexs li {
+    width: 30px;
+    height: 10px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 10%;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+[data-trigger=carousel] #indexs li:hover, 
+[data-trigger=carousel] #indexs li.hover {
+    background:#b61b1f;
+}
